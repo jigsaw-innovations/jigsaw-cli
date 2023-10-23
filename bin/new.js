@@ -214,6 +214,21 @@ const createNewProject = async (projectName) => {
         await runPodInstall(projectDir);
         spinner.succeed();
 
+        // TODO: Print project complete and now time for some questions
+
+        // TODO: Ask user if they intent to deploy to Google and Apple stores
+        // Add sub questions if N
+        // Add spinner for clearing out directories if N
+
+        // TODO: Ask user what default GitHub branch they would like (default main)
+        // programmatically update GitHub action yaml files
+
+        // TODO: Ask user for CODEOWNERS list (detect git user programmatically and default)
+        // init github project somewhere here
+
+        // TODO: Ask user if they want to enable Firebase authentication
+        // If Y, take them through the process
+
     } catch (error) {
         spinner.fail();
         console.error('An error occurred:', error);

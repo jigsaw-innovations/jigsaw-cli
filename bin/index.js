@@ -11,7 +11,7 @@ const appVersion = packageInfo.version;
 
 const usage = chalk.keyword('violet')(
     `${appName} [OPTIONS] COMMAND [ARGS]...\n\n  ${appName} core CLI v${appVersion} ✨ \n\n
-      The ${appName} CLI supports the creation of ${appName} projects. For more 
+      The ${appName} CLI supports the creation of ${appName} projects. For more
       detailed usage, visit: https://github.com/jigsaw-innovations/jigsaw.\n\n
 © Patrick Prunty, Maarten Handels`
 );
@@ -27,7 +27,9 @@ const argv = yargs(hideBin(process.argv))
         if (argv.path) {
             await createNewProject(argv.path);
         } else {
-            console.log(chalk.keyword('violet')('You did not provide a project name. Review usage below:'));
+            console.log(chalk.keyword('yellow')('You did not provide a project name.'));
+            // TODO: Add inquirer for project name
+
             // console.log('Please provide a project name.');
         }
     })
@@ -37,6 +39,7 @@ const argv = yargs(hideBin(process.argv))
         describe: 'Show the version and exit.',
     })
     .option('help', {
+        // TODO: Fix -h flag not printing help
         alias: 'h',
         type: 'boolean',
         describe: 'Show this message and exit.',

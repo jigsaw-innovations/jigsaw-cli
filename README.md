@@ -135,6 +135,27 @@ out-of-the-box.
 The project structure tree can be reviewed below:
 
 ```bash
+src
+├── App.tsx # Entrypoint for the project
+├── assets/ # Media assets
+│   ├── animations # Animation specific media
+│   ├── audio # Audio specific media
+│   ├── fonts # Fonts/typography definitions
+│   ├── icons # jigsaw static icon library
+│   ├── images # Image specific media
+│   └── videos # Video specific media
+├── auth/ # Auth specific library
+├── components/ # Component library
+│   ├── explicit # Explicit components (i.e <Button />)
+│   └── latent # Latent components (i.e <Grid />)
+├── constants/ #
+├── navigation/ # Navigation library
+│   ├── stacks/ # Stack navigators
+│   ├── tabs/ # Tab (bottom tab) navigator
+├── screens/ # Screen library 
+├── services/ # Backend API calls
+├── store/ # Redux sroee provider
+└── utils/ # Utils library
 
 ```
 

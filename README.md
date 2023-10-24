@@ -50,7 +50,7 @@ TODO: Add details on how to install all the below...
 
 ## Getting started
 
-### Installation
+### Step 1: Installation
 
 To install the `jigsaw-cli`, run the following command in a terminal:
 
@@ -60,7 +60,7 @@ npm install jigsaw-cli --global
 
 This will install the `jigsaw-cli` globally on the system. 
 
-### Project creation
+### Step 2: Project creation
 
 To create a `jigsaw` project, run the following:
 
@@ -70,17 +70,15 @@ jigsaw new [projectName]
 
 where `projectName` is the name of your new jigsaw react native project.
 
-### Questioner
+### Step 3: Questioner
 
 Once the project is created, you will be prompted a series of questions:
 
 TODO: add more details here:
+
 1. 
 
-
-## Development
-
-### Building the project
+### Step 4: Start your application
 
 #### For Android
 
@@ -88,7 +86,7 @@ TODO: add more details here:
 jigsaw build android
 ```
 
-You will be prompted to select from the available Android simulators with a default option. To continue using the 
+You will be prompted to select from the available Android simulators with a default option. To continue using the
 default Android simulator, click enter. To select a specific simulator, copy and paste the name of the chosen simulator
 into the prompt.
 
@@ -108,7 +106,7 @@ the prompt.
 If you would like to run on a simulator running a later iOS version, make sure to update `Xcode`. You can do this by following the instructions
 [here](). Once complete, the new simulator options will be available next time you run the above command.
 
-### Modifying the project
+### Step 5: Modifying the project
 
 Now that you have successfully run the app, let's modify it.
 
@@ -116,6 +114,18 @@ Now that you have successfully run the app, let's modify it.
 2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
 
    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+
+## Congratulations 🎉
+
+You've successfully run and modified your first `jigsaw` app. 🥳
+
+For further development details on the project structure, navigation, icons and firebase authentication,
+continue reading the next section.
+
+NOTE TO SELF: People will probably stop reading so it's important to include comments and
+documentation in the code itself to instruct developement on the `jigsaw` project.
+
+## Development
 
 ### Project structure
 
@@ -139,6 +149,6 @@ higher-level components which render the lower-level components which make-up th
 
 ## Releasing
 
-### Local
+### Locally
 
 ### GitHub Actions

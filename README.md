@@ -151,7 +151,7 @@ src
 ├── constants/ #
 ├── navigation/ # Navigation library
 │   ├── stacks/ # Stack navigators
-│   ├── tabs/ # Tab (bottom tab) navigator
+│   └── tabs/ # Tab (bottom tab) navigator
 ├── screens/ # Screen library 
 ├── services/ # Backend API calls
 ├── store/ # Redux sroee provider

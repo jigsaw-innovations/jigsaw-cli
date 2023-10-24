@@ -18,14 +18,14 @@ const usage = chalk.keyword('violet')(
 
 const argv = yargs(hideBin(process.argv))
     .usage(usage)
-    .command('new [path]', 'Create a new jigsaw project 🏯', (yargs) => {
-        yargs.positional('[path]:', {
+    .command('new [projectName]', 'Create a new jigsaw project 🏯', (yargs) => {
+        yargs.positional('[projectName]:', {
             describe: 'Name of the new project',
             type: 'string'
         });
     }, async (argv) => {
-        if (argv.path) {
-            await createNewProject(argv.path);
+        if (argv.projectName) {
+            await createNewProject(argv.projectName);
         } else {
             console.log(chalk.keyword('yellow')('You did not provide a project name.'));
             // TODO: Add inquirer for project name

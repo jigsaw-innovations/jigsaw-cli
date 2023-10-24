@@ -194,7 +194,7 @@ const createNewProject = async (projectName) => {
     const spinner = ora('Initializing...').start();
 
     try {
-        spinner.text = 'Step 1/4: Downloading jigsaw template files 📁';
+        spinner.text = 'Step 1/4: Downloading jigsaw template 📁';
         const repoUrl = 'https://api.github.com/repos/jigsaw-innovations/jigsaw/contents';
         await downloadRepoContent(repoUrl, projectDir, projectName);
         spinner.succeed();
@@ -216,7 +216,8 @@ const createNewProject = async (projectName) => {
 
         // TODO: Print project complete and now time for some questions
 
-        // TODO: Ask user if they intent to deploy to Google and Apple stores
+        // TODO: Ask user if they intent to deploy to Google store
+        // TODO: Ask user if they intent to deploy to Apple store
         // Add sub questions if N
         // Add spinner for clearing out directories if N
 

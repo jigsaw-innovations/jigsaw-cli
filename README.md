@@ -4,7 +4,8 @@ TODO: Add jigsaw badges below:
 [![Documentation Status](https://readthedocs.org/projects/pprunty-shapeshifter/badge/?version=latest)](https://pprunty-shapeshifter.readthedocs.io/en/latest/?badge=latest)
 ![npm - Downloads](https://img.shields.io/npm/dw/react-native)
 ![npm - Version](https://img.shields.io/npm/v/react-native)
-![GitHub Contributors](https://img.shields.io/github/contributors/jigsaw-innovations/jigsaw-cli/shapeshifter.svg)
+
+[//]: # (![GitHub Contributors]&#40;https://img.shields.io/github/contributors/jigsaw-innovations/jigsaw-cli/shapeshifter.svg&#41;)
 
 # jigsaw-cli
 
@@ -55,7 +56,7 @@ TODO: Add details on how to install all the below...
 To install the `jigsaw-cli`, run the following command in a terminal:
 
 ```bash
-$ npm install jigsaw-cli --global
+npm install jigsaw-cli --global
 ```
 
 This will install the `jigsaw-cli` globally on the system. 
@@ -65,7 +66,7 @@ This will install the `jigsaw-cli` globally on the system.
 To create a `jigsaw` project, run the following:
 
 ```bash
-$ jigsaw new [projectName]
+jigsaw new [projectName]
 ```
 
 where `projectName` is the name of your new jigsaw react native project.
@@ -80,5 +81,12 @@ TODO: add more details here:
 
 ## Development
 
-## Project structure
+### Building the project
 
+### Project structure
+
+### Navigation
+
+### Icons
+
+## Releasing

@@ -80,6 +80,12 @@ TODO: add more details here:
 
 ### Step 4: Start your application
 
+First, `cd` into your project directory if you haven't already:
+
+```bash
+cd [projectName]
+```
+
 #### For Android
 
 ```bash
@@ -195,6 +201,8 @@ add list of icons here
 ### Firebase Authentication
 
 ## Releasing
+
+### Metadata Management
 
 ### Locally
 

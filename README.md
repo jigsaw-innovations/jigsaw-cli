@@ -129,6 +129,20 @@ documentation in the code itself to instruct developement on the `jigsaw` projec
 
 ### Project structure
 
+Defining a project structure for your application is hard. That is why `jigsaw` faciliates a project structure 
+out-of-the-box.
+
+The project structure tree can be reviewed below:
+
+```bash
+
+```
+
+This project structure provides logical constraints for developing within the
+`jigsaw` template. However, you are not bound to this project structure and after 
+creating your `jigsaw` project can modify it as you wish.
+
+
 ### Navigation
 
 Navigation in `react-native` is a non-trivial task. That is why `jigsaw` provides basic navigation for your
@@ -144,6 +158,18 @@ higher-level components which render the lower-level components which make-up th
 * `stack`: Stack navigation provides 'horizontal' navigation across the `screens` within the `stack`.
 
 ### Icons
+
+Choosing an icon library to suit your needs is hard. That is why `jigsaw` ships a static icon library built on 
+`heroicons`, allowing you to get started with icon integration.
+
+To use one of these icons in a component, you can do the following:
+
+```javascript
+
+```
+
+...
+add list of icons here
 
 ### Firebase Authentication
 
